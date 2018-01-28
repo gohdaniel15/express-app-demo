@@ -3,6 +3,7 @@ const expressHandlebars = require('express-handlebars');
 const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+// To interact with the `Note` model, require it first at `./models/note.js`
 
 const app = express();
 
@@ -24,3 +25,9 @@ db.on('open', () => {
 app.get('/', (req, res) => {
   res.render('index');
 })
+
+// TODO_1:
+// Create a route to receive a post request from `index.handlebars`
+
+// TODO_2:
+// Create a route to display all notes
