@@ -1,1 +1,14 @@
-<h1>Hello World</h1>
+<h1>Send a note!</h1>
+
+<form action="/notes" method="post">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email">
+
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name">
+
+  <label for="note">Note</label>
+  <input type="text" name="note" id="note">
+
+  <button type="submit">Send Note</button>
+</form>
