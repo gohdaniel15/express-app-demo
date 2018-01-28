@@ -9,5 +9,8 @@
   "version": "1.0.0",
   "description": "My first Express app",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }
